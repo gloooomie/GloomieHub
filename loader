@@ -1,1 +1,18 @@
+local allowedPlaceIds = {
+    [18628567026] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
+    [16721806812] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
+    [18735685578] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
+    [18254620943] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
+    [95508886069297] = "https://raw.githubusercontent.com/gloooomie/ST/refs/heads/main/Slap%20Tower%20Public",
+}
 
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+
+local scriptToRun = allowedPlaceIds[game.PlaceId]
+
+if scriptToRun then
+    loadstring(game:HttpGet(scriptToRun))()
+else
+    player:Kick("Unsupported game")
+end
