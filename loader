@@ -9,6 +9,7 @@ local allowedPlaceIds = {
     [79089892790758] = "https://raw.githubusercontent.com/gloooomie/ST2/refs/heads/main/ST2Public.lua",
     [105612566642310] = "https://raw.githubusercontent.com/gloooomie/ST3/refs/heads/main/ST3Public.lua",
     [105692451124462] = "https://raw.githubusercontent.com/gloooomie/BT/refs/heads/main/BTPublic.lua",
+    [86082995079744] = "https://raw.githubusercontent.com/gloooomie/ST4/refs/heads/main/ST4Public.lua",
 }
 
 local Players = game:GetService("Players")
