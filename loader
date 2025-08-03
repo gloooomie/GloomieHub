@@ -1,14 +1,7 @@
 local allowedPlaceIds = {
-    [18628567026] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
-    [16721806812] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
-    [18735685578] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
-    [18254620943] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
-    [90305598758746] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
-    [18254620314] = "https://raw.githubusercontent.com/gloooomie/TB/refs/heads/main/TongueBattlesPublic.lua",
     [95508886069297] = "https://raw.githubusercontent.com/gloooomie/ST/refs/heads/main/STPublic.lua",
     [79089892790758] = "https://raw.githubusercontent.com/gloooomie/ST2/refs/heads/main/ST2Public.lua",
-    [105612566642310] = "https://raw.githubusercontent.com/gloooomie/ST3/refs/heads/main/ST3Public.lua",
-    [105692451124462] = "https://raw.githubusercontent.com/gloooomie/BT/refs/heads/main/BTPublic.lua",
+    [105612566642310] = "https://raw.githubusercontent.com/gloooomie/ST3/refs/heads/main/ST3Public.lua", 
     [86082995079744] = "https://raw.githubusercontent.com/gloooomie/ST4/refs/heads/main/ST4Public.lua",
 }
 
